@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/yuban12315/tieba-searcher#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "iconv-lite": "^0.4.23",
-    "superagent": "^3.8.3"
+    "superagent": "^3.8.3",
+    "superagent-charset": "^1.2.0",
+    "tracer": "^0.9.1"
   }
 }

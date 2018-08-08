@@ -1,7 +1,11 @@
-const str="中文"
+const a=[]
+for (let i=0;i<34;i++){
+    a[i]=i
+}
 
-console.log(encodeURIComponent(str))
-console.log(typeof encodeURIComponent(str))
-const  str1=encodeURIComponent(str)
-const  str2="%E4%B8%AD%E6%96%87"
-console.log(decodeURI(str2))
+
+for (let i=0;i<7;i++){
+    const j=Math.round(Math.random()*a.length)
+    console.log(j)
+    a.splice(j, 1)
+}
